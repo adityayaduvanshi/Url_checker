@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       <nav className="p-4 bg-transparent flex items-center  justify-between">
-        <h1 className="text-2xl font-bold text-white">Url</h1>
+        <h1 className="text-2xl font-bold text-white">URLGuardian</h1>
       </nav>
       <div className="text-white font-bold py-20 text-center space-y-5 ">
         <div className="space-y-5 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold ">
