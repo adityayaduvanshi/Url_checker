@@ -172,7 +172,11 @@ const UrlForm = () => {
                   type="text"
                   placeholder="https://www.google.com"
                 />
-                {fieldState.error && <p>{fieldState.error.message}</p>}
+                {fieldState.error && (
+                  <p className="text-xs text-red-500">
+                    {fieldState.error.message}
+                  </p>
+                )}
               </>
             )}
           />
