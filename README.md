@@ -1,5 +1,5 @@
 
-# Website Checker
+# URLGuardian
 
 URLGuardian is a web application built using React that allows users to check the health status of a given website. The application performs three important checks on the provided URL: checking the HTTP status code (whether it returns 200 or not), verifying the validity of the SSL certificate, and determining if the website has a robots.txt file.
 
